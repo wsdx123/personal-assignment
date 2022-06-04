@@ -1,2 +1,8 @@
 export { ReactComponent as LogoImage } from './logo.svg'
 export { ReactComponent as CheckIcon } from './check.svg'
+export { ReactComponent as HomeIcon } from './home.svg'
+export { ReactComponent as SearchIcon } from './search.svg'
+export { ReactComponent as PlayListIcon } from './playlist.svg'
+export { ReactComponent as PrevIcon } from './previous.svg'
+export { ReactComponent as NextIcon } from './next.svg'
+export { ReactComponent as PlayIcon } from './play.svg'

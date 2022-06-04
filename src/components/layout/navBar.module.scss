@@ -1,0 +1,42 @@
+@use '/src/styles/constants/colors';
+
+.navBar {
+  position: absolute;
+  top: calc(100% - 50px);
+  width: 100%;
+  border-top: 1px solid colors.$GRAY3;
+
+  .navUl {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background-color: colors.$BACKGROUND;
+  }
+
+  .navItem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+
+    .navIcon {
+      width: 20px;
+      height: 20px;
+    }
+
+    path {
+      fill: colors.$ICON_GRAY;
+    }
+  }
+}
+
+.clicked {
+  .navIcon {
+    path {
+      fill: colors.$ICON_CLICKED;
+    }
+  }
+}
