@@ -28,6 +28,14 @@
     .songInfo {
       display: flex;
       flex-direction: column;
+
+      dt {
+        color: colors.$WHITE;
+      }
+
+      dd {
+        color: colors.$GRAY6;
+      }
     }
   }
 

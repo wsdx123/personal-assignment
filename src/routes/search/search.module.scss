@@ -1,0 +1,36 @@
+@use '/src/styles/constants/colors';
+
+.wrapper {
+  padding: 10px;
+
+  .form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+    input {
+      width: 100%;
+      padding: 5px;
+      color: colors.$WHITE;
+      // background-color: white;
+      border-bottom: 2px solid white;
+    }
+
+    .searchBtn {
+      position: absolute;
+      right: 10px;
+
+      .icon {
+        width: 20px;
+        height: 20px;
+
+        path {
+          fill: white;
+        }
+      }
+    }
+  }
+}
