@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit'
 
-import sliceTest from './todo'
+import musicData from './musicData'
 
 export const store = configureStore({
-  reducer: { sliceTest },
+  reducer: { musicData },
   devTools: process.env.NODE_ENV !== 'production',
   middleware: (getDefaultMiddleware) => getDefaultMiddleware({ serializableCheck: false }),
 })

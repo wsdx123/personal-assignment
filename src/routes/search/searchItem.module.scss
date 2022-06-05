@@ -1,0 +1,23 @@
+@use '/src/styles/constants/colors';
+
+.item {
+  display: flex;
+  margin-bottom: 10px;
+
+  img {
+    margin-right: 5px;
+  }
+
+  dl {
+    display: flex;
+    flex-direction: column;
+
+    dt {
+      color: colors.$WHITE;
+    }
+
+    dd {
+      color: colors.$GRAY6;
+    }
+  }
+}

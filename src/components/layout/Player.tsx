@@ -1,5 +1,6 @@
-import { NextIcon, PlayIcon, PlayListIcon, PrevIcon } from 'assets/svgs'
 import { useNavigate } from 'react-router-dom'
+
+import { NextIcon, PlayIcon, PlayListIcon, PrevIcon } from 'assets/svgs'
 import styles from './player.module.scss'
 
 const Player = () => {

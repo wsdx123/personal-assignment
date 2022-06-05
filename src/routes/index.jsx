@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 import Layout from 'components/layout'
-import Home from './home'
-import Search from './search'
 import Playlist from './playlist'
+import Search from './search'
+import Home from './home'
 
 const App = () => {
   return (
