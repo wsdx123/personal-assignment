@@ -3,7 +3,7 @@
 
 # 🚀 배포
 
-
+[jy-music-app.netlify.app/](https://jy-music-app.netlify.app/)
 
 
 # 📝 진행 과정
