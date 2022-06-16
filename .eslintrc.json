@@ -17,6 +17,8 @@
       "version": "detect"
     }
   },
+  "plugins": ["unused-imports"],
+
   "rules": {
     "arrow-body-style": "off",
     "semi": ["warn", "never"],
@@ -43,6 +45,14 @@
         "devDependencies": [".storybook/**", "src/stories/**"]
       }
     ],
+
+    "no-unused-vars": "off", // or "@typescript-eslint/no-unused-vars": "off",
+		"unused-imports/no-unused-imports": "error",
+		"unused-imports/no-unused-vars": [
+			"warn",
+			{ "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_" }
+		],
+    
     // "max-lines": ["warn", 150],
     "no-param-reassign": ["error", { "props": false }],
     "no-use-before-define": "off",
