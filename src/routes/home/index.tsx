@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <div>
       <img alt='logo' src='/logo.png' className={styles.logo} />
-      Home
     </div>
   )
 }
