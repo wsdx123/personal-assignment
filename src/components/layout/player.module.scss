@@ -13,6 +13,7 @@
 
   .music {
     display: flex;
+    align-items: center;
 
     .listIcons {
       width: 30px;
@@ -39,7 +40,7 @@
     }
   }
 
-  .icons {
+  %icons {
     width: 20px;
     height: 20px;
 
@@ -47,9 +48,25 @@
       fill: colors.$WHITE;
       stroke: colors.$WHITE;
     }
+  }
 
-    &:nth-child(2) {
-      margin: 0 15px;
-    }
+  .prev {
+    @extend %icons;
+  }
+
+  .play {
+    @extend %icons;
+    margin-left: 10px;
+  }
+
+  .next {
+    @extend %icons;
+    margin-left: 10px;
+    transform: rotate(180deg);
+  }
+
+  .pause {
+    @extend %icons;
+    margin-left: 10px;
   }
 }
